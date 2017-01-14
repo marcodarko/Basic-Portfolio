@@ -8,7 +8,7 @@
 }
 
 body{
-	background: url("assets/images/trianglepattern.png");
+	background: url('../images/dark.png');
 	background-color: grey;
 }
 
@@ -48,7 +48,43 @@ hr{
 	border: solid 1px grey;
 }
 
-.logo{
+header{
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+header div{
+	width: 960px;
+	margin: auto;
+}
+
+header h1{
+	float: left;
+	background-color: #4aaaa5;
+	padding: 10px;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0;
+}
+
+header nav a{
+	float: right;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+header nav a:hover{
+	color: white;
+    background: -webkit-linear-gradient(#ffffff, #4aaaa5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #4aaaa5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #4aaaa5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #4aaaa5); 
+}
+
+/*.logo{
 	background-color: #4aaaa5;
 	padding: 15px;
 	text-align: center;
@@ -77,11 +113,11 @@ hr{
 }
 
 .pages ul li{
-	display: inline;
+	display: inline-block;
 	list-style: none;
 	padding: 10px;
 }
-
+*/
 
 .leftBox{
 	background-color: #ffffff;
@@ -90,6 +126,7 @@ hr{
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	border-radius: 10px;
 }
 
 .leftBox img{
@@ -112,6 +149,7 @@ hr{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
+	border-radius: 10px;
 }
 
 .sidebar{
@@ -125,6 +163,12 @@ hr{
 	display: inline;
 }
 
+.links a img:hover{ 
+    transform:rotateY(360deg);
+	transform-origin:center;
+	transition-duration:2s;
+}
+
 
 .footer{
 	width: auto;
@@ -133,6 +177,7 @@ hr{
 	color: #ffffff;
 	text-align: center;
 	padding: 50px;
+	border-top:6px solid #4aaaa5;
 }
 
 
