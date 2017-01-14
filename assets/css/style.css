@@ -79,16 +79,18 @@ header h1{
 
 header nav a{
 	float: right;
-	padding: 20px;
-	border-radius: 20px;
+	margin-left: 15px;
+	padding-left: 15px; 
+	margin-top: 20px;
+	border-left: solid #777777 1px;
+}
+
+header nav a:nth-child(3){
+	border-left: none;
 }
 
 header nav a:hover{
-	color: white;
-    background: -webkit-linear-gradient(#ffffff, #4aaaa5); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#ffffff, #4aaaa5); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#ffffff, #4aaaa5); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#ffffff, #4aaaa5); 
+	color: #4aaaa5;
 }
 
 
