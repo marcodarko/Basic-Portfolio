@@ -45,6 +45,9 @@ a{
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+a:hover{
+	color:#4aaaa5;
+}
 
 hr{
 	border: solid 1px grey;
@@ -70,6 +73,8 @@ header h1{
 	color: #ffffff;
 	position: absolute;
 	bottom: 0;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 
 header nav a{
@@ -107,6 +112,10 @@ header nav a:hover{
 
 .content{
 	padding: 15px;
+}
+
+.contentTitle{
+	color:#4aaaa5;
 }
 
 .rightBox{
@@ -181,6 +190,8 @@ textarea{
 	position: relative;
 	padding: 5px;
 	opacity: .5;
+	-webkit-transition: opacity 2s; /* Safari */
+    transition: opacity 2s;
 }
 
 .gallery img{
