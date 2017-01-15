@@ -10,7 +10,7 @@
 
 body{
 	background: url('../images/dark.png');
-	background-color: grey;
+	background-color: #ffffff;
 	height: 100%
 }
 
@@ -102,6 +102,7 @@ header nav a:hover{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-radius: 10px;
+	margin-bottom: 200px;
 }
 
 #profilePic{
@@ -177,13 +178,17 @@ textarea{
 
 
 .footer{
-	width: auto;
+	width: 100%;
 	clear: both;
 	background-color: #666666;
 	color: #ffffff;
 	text-align: center;
 	padding: 50px;
 	border-top:6px solid #4aaaa5;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
 }
 
 .gallery{
